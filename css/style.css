@@ -90,11 +90,14 @@ body {
 
 .calculator__button--spanTwo {
   grid-column: span 2;
-  background-color: #ff9595;
   color: #fff;
 }
 
-.calculator__button--spanTwo:hover {
+.calculator__button--bg {
+  background-color: #ff9595;
+}
+
+.calculator__button--bg:hover {
   background-color: #e38585;
 }
 

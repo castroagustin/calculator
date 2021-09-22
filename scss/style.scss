@@ -84,8 +84,10 @@ body {
     }
     &--spanTwo {
       grid-column: span 2;
-      background-color: $primary-color;
       color: #fff;
+    }
+    &--bg {
+      background-color: $primary-color;
       &:hover {
         background-color: $primary-dark-color;
       }
